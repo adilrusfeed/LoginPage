@@ -1,0 +1,34 @@
+// const _error = ("username and password doesnot match!\nplease try again");
+
+      // ---------------------//snack bar
+      // ScaffoldMessenger.of(context).showSnackBar(
+      //   SnackBar(
+      //       duration: Duration(seconds: 3),
+      //       behavior: SnackBarBehavior.floating,
+      //       backgroundColor: Colors.red,
+      //       margin: EdgeInsets.all(100),
+      //       content: Text(_error)),
+
+      //  ------------------- //snackbar
+      // );
+      //----------------------//popup---------------------------------------
+      // showDialog(
+      //     context: context,
+      //     builder: (context1) {
+      //       return AlertDialog(
+      //         title: Text('error'),
+      //         content: Text(_error),
+      //         actions: [
+      //           TextButton(
+      //             onPressed: () {
+      //               Navigator.of(context1).pop();
+      //             },
+      //             child: Text('close'),
+      //           ),
+      //         ],
+      //       );
+      //     });
+      // //popup
+      // setState(() {
+      //   matched = false;
+      // });
